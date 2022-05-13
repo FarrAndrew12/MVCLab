@@ -1,0 +1,21 @@
+﻿<h2>Please Input your First and Last Name, along with a valid email and password</h2>
+
+<form asp-action="UserReg" asp-controller="Home" method="get">
+    <p>First Name:</p>
+    <input type="text" name="FirstName"/>
+    <br/> <!--Think of it as your newline character for HTML-->
+
+    <p>Last Name</p>
+    <input type="text" name="LastName"/>
+    <br/>
+
+    <p>E-mail</p>
+    <input type="text" name="EMail"/>
+    <br/>
+
+    <p>Password</p>
+    <input type="text" name="Password" />
+    <br/>
+
+    <input type="submit"/>
+</form>
